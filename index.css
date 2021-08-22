@@ -1,0 +1,50 @@
+body {
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Urbanist', sans-serif;
+}
+
+.main-content {
+    margin-left:35%;
+    margin-right: 35%;
+    
+}
+
+.div-card {
+    margin-top: 40%;
+    margin-bottom: 40%;
+    background-color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 0 2px 4px 0 black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Footer Content*/
+#credit-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    
+    padding: 0.5rem;
+}
+#github-logo {
+    vertical-align: middle;
+    display:inline;
+    width: 4em;
+}
+#linkedin-logo {
+    vertical-align: middle;
+    display:inline;
+    width: 5em;
+}
