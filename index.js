@@ -9,3 +9,7 @@ function seeMore2Listener() {
 function seeMore3Listener() {
     location.href = "#fourth-panel";
 }
+
+function seeMore4Listener() {
+    location.href = "#first-panel";
+}
