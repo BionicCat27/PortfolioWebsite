@@ -1,11 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+a {
+    color: black;
+
+}
+
+#second-panel a {
+    color: white;
+}
+
+#fourth-panel a {
+    color: white;
+}
+
+.link-white {
+    color: white;
+}
+
+.embedded-logo {
+    background-color: white;
+    color: black! important;
+}
+
+.panel {
+    height: 100%;
+    width: 100%;
+}
+
+#first-panel {
+    
+}
+
+#first-panel-content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#second-panel {
     background: #C33764;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: 'Arial', sans-serif;
-    font-family: 'Urbanist', sans-serif;
-    height: 100%;
-    font-size: 20px;
+}
+
+#second-panel-content {
+    margin: 0;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+}
+
+#third-panel {
+
+}
+
+#third-panel-content {
+    margin: 0;
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#fourth-panel {
+    color: white;
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#fourth-panel-content {
+    margin: 0;
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 button {
@@ -17,16 +110,12 @@ button {
     background-color: white;
     border: none;
     border: 1.5px solid #555555;
+    margin:0 auto;
+    display:block;
 }
 
 button:hover {
     background-color: grey;
-}
-
-.main-content {
-    height: 100%;
-    margin-left:20%;
-    margin-right: 20%;
 }
 
 .div-card {
@@ -42,37 +131,54 @@ button:hover {
     text-align: center;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 .float-left {
     float: left;
+}
+
+.display-inline {
+    display: inline-block;
+}
+
+.display-block {
+    display: block;
+}
+
+.padding-1 {
+    padding: 1rem;
+}
+
+.margin-1 {
+    margin: 1rem;
 }
 
 .nav-button {
     text-align: center;
     display: inline-block;
-    
 }
-
 
 /* Footer Content*/
 #credit-footer {
-    position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
     background-color: white;
     color: black;
     text-align: center;
     padding: 0.5rem;
+    margin: 0;
 }
 #github-logo {
     vertical-align: middle;
     display:inline;
-    width: 4em;
+    width: 4rem;
 }
 #linkedin-logo {
     vertical-align: middle;
     display:inline;
-    width: 5em;
+    width: 5rem;
 }
 
 #pageNav {
