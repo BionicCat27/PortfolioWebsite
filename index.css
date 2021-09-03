@@ -191,10 +191,64 @@ button:hover {
     body {
         font-size: 2vw;
     }
+
+    #first-panel-content {
+        width: 75%;
+    }
+
+    #second-panel-content {
+        width: 75%;
+    }
+
+    #third-panel-content {
+        width: 75%;
+    }
+
+    #fourth-panel-content {
+        width: 75%;
+    }
+}
+
+@media (max-width: 720px) {
+    body {
+        font-size: 3vw;
+    }
+    
+    #first-panel-content {
+        width: 90%;
+    }
+
+    #second-panel-content {
+        width: 90%;
+    }
+
+    #third-panel-content {
+        width: 90%;
+    }
+
+    #fourth-panel-content {
+        width: 90%;
+    }
 }
 
 @media (max-width: 480px) {
     body {
         font-size: 4vw;
+    }
+
+    #first-panel-content {
+        width: 90%;
+    }
+
+    #second-panel-content {
+        width: 90%;
+    }
+
+    #third-panel-content {
+        width: 90%;
+    }
+
+    #fourth-panel-content {
+        width: 90%;
     }
 }
