@@ -17,6 +17,11 @@ a {
 
 }
 
+.back-link {
+    position: absolute;
+    font-size: 1.5vw;
+}
+
 #second-panel a {
     color: white;
 }
@@ -207,6 +212,11 @@ button:hover {
     #fourth-panel-content {
         width: 75%;
     }
+
+    .back-link {
+        position: absolute;
+        font-size: 3vw;
+    }
 }
 
 @media (max-width: 720px) {
@@ -229,6 +239,11 @@ button:hover {
     #fourth-panel-content {
         width: 90%;
     }
+
+    .back-link {
+        position: absolute;
+        font-size: 4.5vw;
+    }
 }
 
 @media (max-width: 480px) {
@@ -250,5 +265,9 @@ button:hover {
 
     #fourth-panel-content {
         width: 90%;
+    }
+    .back-link {
+        position: absolute;
+        font-size: 6vw;
     }
 }
