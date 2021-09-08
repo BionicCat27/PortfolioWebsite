@@ -14,7 +14,6 @@ body {
 
 a {
     color: black;
-
 }
 
 .back-link {
@@ -36,9 +35,25 @@ a {
     color: white;
 }
 
+.link-black {
+    color: black !important;
+}
+
 .embedded-logo {
     background-color: white;
     color: black! important;
+}
+
+.project-card {
+    padding: 1rem;
+    color: black;
+    background-color: white;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.project-card a {
+    color: black !important;
 }
 
 .panel {
