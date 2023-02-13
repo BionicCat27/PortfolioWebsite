@@ -1,134 +1,187 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Aslan Bennington-Barr
-        </title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GWR5C59NS"></script>
-        <script>
+
+<head>
+    <title>
+        Aslan Bennington-Barr
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GWR5C59NS"></script>
+    <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-5GWR5C59NS');
-        </script>
-    </head>
-    <body>
-        <div id="first-panel" class="panel">
-            <div id="first-panel-content" class="panel-content">
-                <h1 class="text-center">Hi, I'm Aslan Bennington-Barr!</h1>
-                <p class="text-justify">I'm a Web Developer and Software Engineer, studying for the Bachelor of Engineering at Victoria University of Wellington.</p>
-                <p class="text-justify">I love solving problems, programming, electronics, and reading. I'm learning Japanese in my spare time.</p>
-                <p class="text-justify">I love optimising programs, as well as my life! I'm the kind of person that counts the steps on the staircase so I can bound up in as few steps as possible, and sprints around the house to reduce travel time. Both hypothetical examples, of course...</p>
-                <button id="seemore1" onclick="seeMore1Listener()" class="text-center ">My Portfolio</button>
-                <a class="margin-1 back-link text-center">Scroll for more!</a>
-            </div>
+    </script>
+</head>
+
+<body>
+    <div id="first-panel" class="panel">
+        <div id="first-panel-content" class="panel-content">
+            <h1 class="text-center">Hi, I'm Aslan Bennington-Barr!</h1>
+            <p class="text-justify">I'm a Junior Software Developer at TechTime.</p>
+            <p class="text-justify">I love solving problems, programming, photography, and reading. I like learning
+                languages and useless facts in my spare time.</p>
+            <button id="seemore1" onclick="seeMore1Listener()" class="text-center ">My Portfolio &#8595;</button>
         </div>
-        <div id="second-panel" class="panel">
-            <div id="second-panel-content" class="panel-content">
-                <h1 class="text-center">My Portfolio</h1>
-                <div class="display-block ">
-                    <p>
-                        Professional Work
+    </div>
+    <div id="second-panel" class="panel">
+        <div id="second-panel-content" class="panel-content">
+            <h1 class="text-center">My Portfolio</h1>
+            <div class="display-block ">
+                <p>
+                    Professional Work
+                </p>
+                <div class="project-card">
+                    <h3>TechTime Initiative Group</h3>
+                    <h4>2021 til present</h4>
+                    <p>I have been working with TechTime since late 2021, and have since become a Junior Software
+                        Developer there.</p>
+                    <p>I have developed code in Atlassian Marketplace Apps, and become Atlassian ACP-620 Certified.</p>
+                    <p>I've worked on customer facing website content and been responsible for work on scripting for a
+                        data migration
+                        project for a billion
+                        dollar company.</p>
+                    <p>I have been made Champion of Accessibility for TechTime.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Architectural Business Project Management Tool</h3>
+                    <h4>2018 - 2022</h4>
+                    <p>I have been developing a project management tool for an architectural company, designed to
+                        replace their clunky spreadsheet based systems with a purpose-built website. The project is in
+                        use but still under development. A demo could be provided on request.</p>
+                    <p>The project has integrations with Xero's WorkflowMax API, uses AJAX and jQuery with an SQL
+                        database, and is built on an HTML, CSS and Javascript stack, with PHP files for automating
+                        certain API functions.</p>
+                </div>
+            </div>
+            <div class="display-block">
+                <p>Group Work</p>
+                <div class="project-card">
+                    <h3>Trovu - Job Search Service</h3>
+                    <p><a class="link-black" href="https://www.trovu.co">Trovu.co</a> was a project two friends and I
+                        began in late 2017. We received a grant which enabled us to continue work, but unfortunately
+                        COVID forced us to re-evaluate the viability of the product. A placeholder site is in use for
+                        now. A development version demo could be provided on request.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Daily Avocado - SoT Create Camp 2021</h3>
+                    <p>I attended the Summer of Tech Create Camp in 2021. My group produced a financial management tool
+                        called Daily Avocado, an "instant, automatic and visual insight" into your financial spending
+                        habits.</p>
+                    <p>Our project won the Technical Award for the Create Camp, due to our demo and integration with two
+                        datasets.</p>
+                    <a class="link-black" href="https://github.com/harleywelsby/Create-Camp-2021">Link to GitHub</a>,
+                    <a class="link-black"
+                        href="https://www.linkedin.com/feed/update/urn:li:activity:6840227627765248000/">My LinkedIn
+                        post</a>
+                </div>
+            </div>
+            <div class="display-block ">
+                <p>Personal Projects</p>
+                <div class="project-card">
+                    <h3>Doomsday Calculator</h3>
+                    <p>The Doomsday Calculator is based on <a href="https://www.wikiwand.com/en/John_Horton_Conway">John
+                            Conway's</a> <a href="https://www.wikiwand.com/en/Doomsday_rule">Doomsday Rule</a>, which
+                        allows us to calculate the day of the week of any date.</p>
+                    <p>I have created a <a href="https://doomsday-calculator.vercel.app/">live web version</a> (<a
+                            href="https://github.com/BionicCat27/Doomsday-Calculator-Web">GitHub</a>), a Java version
+                        (<a href="https://github.com/BionicCat27/Doomsday-Calculator-Java">GitHub</a>) and a Python
+                        version (<a href="https://github.com/BionicCat27/Doomsday-Calculator-Python">GitHub</a>).</p>
+                </div>
+                <div class="project-card">
+                    <h3>My Simple Priorities</h3>
+                    <p>My Simple Priorities is a priority tracker. It is in early development, but I intend to add lots
+                        of features - accounts, multiple priority lists, sub-priority lists etc. I am developing My
+                        Simple Priorities because I find to-do lists too one dimensional.</p>
+                    <p>I have created a <a href="https://my-simple-priorities-web.vercel.app">live web demo</a> (<a
+                            href="https://github.com/BionicCat27/My-Simple-Priorities-Web">GitHub</a>), and a Java
+                        version (<a href="https://github.com/BionicCat27/My-Simple-Priorities-Java">GitHub</a>) using
+                        Swing.</p>
+                </div>
+                <div class="project-card">
+                    <h3>House Calculator</h3>
+                    <p>The House Calculator is a website for calculating how long it would take for you to buy a house,
+                        given certain parameters.</p>
+                    <p>I have created a <a href="https://house-calculator.vercel.app/">live web demo</a> (<a
+                            href="https://github.com/BionicCat27/HouseCalculator/tree/main">GitHub</a>)</p>
+                </div>
+                <div class="project-card">
+                    <h3>This website!</h3>
+                    <p>I have built this website from scratch (<a
+                            href="https://github.com/BionicCat27/PortfolioWebsite">GitHub</a>) to showcase some of my
+                        work. It is written in HTML, CSS, and Javascript, and uses jQuery. I hope you like it!
                     </p>
-                    <div class="project-card">
-                        <h3>Architectural Business Project Management Tool</h3>
-                        <p>I have been developing a project management tool for an architectural company, designed to replace their clunky spreadsheet based systems with a purpose-built website. The project is in use but still under development. A demo could be provided on request.</p>
-                        <p>The project has integrations with Xero's WorkflowMax API, uses AJAX and jQuery with an SQL database, and is built on an HTML, CSS and Javascript stack, with PHP files for automating certain API functions.</p>
-                    </div>
                 </div>
-                <div class="display-block">
-                    <p>Group Work</p>
-                    <div class="project-card">
-                        <h3>Trovu - Job Search Service</h3>
-                        <p><a class="link-black" href="https://www.trovu.co">Trovu.co</a> was a project two friends and I began in late 2017. We received a grant which enabled us to continue work, but unfortunately COVID forced us to re-evaluate the viability of the product. A placeholder site is in use for now. A development version demo could be provided on request.</p>
-                    </div>
-                    <div class="project-card">
-                        <h3>Daily Avocado - SoT Create Camp 2021</h3>
-                        <p>I attended the Summer of Tech Create Camp in 2021. My group produced a financial management tool called Daily Avocado, an "instant, automatic and visual insight" into your financial spending habits.</p>
-                        <p>Our project won the Technical Award for the Create Camp, due to our demo and integration with two datasets.</p>
-                        <a class="link-black" href="https://github.com/harleywelsby/Create-Camp-2021">Link to GitHub</a>,
-                        <a class="link-black" href="https://www.linkedin.com/feed/update/urn:li:activity:6840227627765248000/">My LinkedIn post</a>
-                    </div>
-                </div>
-                <div class="display-block ">
-                    <p>Personal Projects</p>
-                    <div class="project-card">
-                        <h3>Doomsday Calculator</h3>
-                        <p>The Doomsday Calculator is based on <a href="https://www.wikiwand.com/en/John_Horton_Conway">John Conway's</a> <a href="https://www.wikiwand.com/en/Doomsday_rule">Doomsday Rule</a>, which allows us to calculate the day of the week of any date.</p>
-                        <p>I have created a <a href="https://doomsday-calculator.vercel.app/">live web version</a> (<a href="https://github.com/BionicCat27/Doomsday-Calculator-Web">GitHub</a>), a Java version (<a href="https://github.com/BionicCat27/Doomsday-Calculator-Java">GitHub</a>) and a Python version (<a href="https://github.com/BionicCat27/Doomsday-Calculator-Python">GitHub</a>).</p>
-                    </div>
-                    <div class="project-card">
-                        <h3>My Simple Priorities</h3>
-                        <p>My Simple Priorities is a priority tracker. It is in early development, but I intend to add lots of features - accounts, multiple priority lists, sub-priority lists etc. I am developing My Simple Priorities because I find to-do lists too one dimensional.</p>
-                        <p>I have created a <a href="https://my-simple-priorities-web.vercel.app">live web demo</a> (<a href="https://github.com/BionicCat27/My-Simple-Priorities-Web">GitHub</a>), and a Java version (<a href="https://github.com/BionicCat27/My-Simple-Priorities-Java">GitHub</a>) using Swing.</p>
-                    </div>
-                    <div class="project-card">
-                        <h3>House Calculator</h3>
-                        <p>The House Calculator is a website for calculating how long it would take for you to buy a house, given certain parameters.</p>
-                        <p>I have created a <a href="https://house-calculator.vercel.app/">live web demo</a> (<a href="https://github.com/BionicCat27/HouseCalculator/tree/main">GitHub</a>)</p>
-                    </div>
-                    <div class="project-card">
-                        <h3>This website!</h3>
-                        <p>I have built this website from scratch (<a href="https://github.com/BionicCat27/PortfolioWebsite">GitHub</a>) to showcase some of my work. It is written in HTML, CSS, and Javascript, and uses jQuery. I hope you like it!
-                        </p>
-                    </div>
-                </div>
-                <button id="seemore1" onclick="seeMore2Listener()" class="text-center">My Skills</button>
-                <a class="margin-1 back-link text-center" href="#first-panel">Back</a>
             </div>
+            <button id="seemore1" onclick="seeMore2Listener()" class="text-center">My Skills</button>
+            <a class="margin-1 back-link text-center" href="#first-panel">Back</a>
         </div>
-        <div id="third-panel"  class="panel">
-            <div id="third-panel-content" class="panel-content">
-                <h1 class="text-center">My Skills</h1>
-                <div class="display-block">
-                    <p>Transferrable Skills</p>
-                    <ul>
-                        <li><b>Reliable</b> - I pride myself on being reliable - if you ask me to do something, I will do all I can to ensure it happens!</li>
-                        <li><b>Flexible and a fast learner</b> - I love learning, and I challenge myself to learn as much as possible.</li>
-                        <li><b>Problem solving</b> - I love solving problems, if I see a problem I will work to solve it until I finish it, or it will irk me until I forget about it.</li>
-                    </ul>
-                </div>
-                <div class="display-block ">
-                    <p>Technical Skills</p>
-                    <ul >
-                        <li>HTML, CSS, JavaScript</li>
-                        <li>PHP, MySQL</li>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>C, C#, C++</li>
-                        <li>Xero's WorkflowMax API, OAuth2.0, Bootstrap, jQuery, AJAX</li>
-                        <li>GitHub, Bitbucket, Jira, Firebase</li>
-                        <li>Linux - Ubuntu and Kali Linux</li>
-                        <li>Unity - game programming</li>
-                        <li>Filming</li>
-                    </ul>
-                </div>
-                <button id="seemore1" onclick="seeMore3Listener()" class="text-center">Contacts</button>
-                <a class="margin-1 back-link text-center" href="#second-panel">Back</a>
+    </div>
+    <div id="third-panel" class="panel">
+        <div id="third-panel-content" class="panel-content">
+            <h1 class="text-center">My Skills</h1>
+            <div class="display-block">
+                <p>Transferrable Skills</p>
+                <ul>
+                    <li><b>Reliable</b> - I worked on a data
+                        migration project for a billion dollar company, delegated and monitored work
+                        done by coworkers in support of that project as well as in maintaining a customer
+                        facing website with unrestricted content editing access.</li>
+                    <li><b>Flexible and a fast learner</b> - I have self taught several languages, reinterpreted and
+                        adapted multiple scripts that were unmaintained for up to two years, and performed
+                        estimations and exploratory work for other projects.</li>
+                    <li><b>Problem solving</b> - I rely on my intuition to formulate
+                        a naïve solution to a problem, and then optimize the solution until it is as efficient as
+                        possible. I believe this reduces the overhead of attacking a huge problem head on by
+                        breaking it into smaller parts which can then be optimized.</li>
+                </ul>
             </div>
-        </div>
-        <div id="fourth-panel" class="panel">
-            <div id="fourth-panel-content" class="panel-content">
-                <h1 class="text-center">Contact Me</h1>
-                <a class="display-block padding-1 margin-1 embedded-logo" href="https://www.linkedin.com/in/aslan-bennington-barr/"><img id="linkedin-logo" src="resources/LI-Logo.png" ></a>
-                <a class="display-block padding-1 margin-1 embedded-logo" href="https://github.com/BionicCat27"><img id="github-logo" src="resources/GitHub_Logo.png" ></a>
-                <a class="display-block padding-1 margin-1 embedded-logo" href="https://www.linkedin.com/in/aslan-bennington-barr/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAACCcP1YBES0w6xmWUvDieGGCGmRPFe4PzzA,1635468796297)/">My CV @ LinkedIn</a>
-                <a class="display-block padding-1 margin-1 embedded-logo" href="mailto:aslan.bennington.barr@gmail.com">aslan.bennington.barr@gmail.com</a>
-                <button id="seemore1" onclick="seeMore4Listener()" class="text-center">Back to top</button>
-                <a class="margin-1 back-link text-center" href="#third-panel">Back</a>
+            <div class="display-block ">
+                <p>Technical Skills</p>
+                <ul>
+                    <li>HTML, CSS, JavaScript, React</li>
+                    <li>PHP, MySQL</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C, C#, C++</li>
+                    <li>Atlassian's Jira, Bitbucket, Confluence</li>
+                    <li>Xero's WorkflowMax API, OAuth2.0, Bootstrap, jQuery, AJAX</li>
+                    <li>GitHub, Bitbucket, Jira, Firebase</li>
+                    <li>Linux - Ubuntu and Kali Linux</li>
+                    <li>Photography, creative media</li>
+                </ul>
             </div>
+            <button id="seemore1" onclick="seeMore3Listener()" class="text-center">Want to know more?</button>
+            <a class="margin-1 back-link text-center" href="#second-panel">Back</a>
         </div>
-        <footer id="credit-footer">A project by <a href="https://aslanbb.vercel.app/">Aslan Bennington-Barr</a><br>
-            <a href="https://github.com/BionicCat27"><img id="github-logo" src="resources/GitHub_Logo.png" ></a>
-            <a href="https://www.linkedin.com/in/aslan-bennington-barr/"><img id="linkedin-logo" src="resources/LI-Logo.png" ></a>
-        </footer>
-        <script src="index.js"></script>
-    </body>
+    </div>
+    <div id="fourth-panel" class="panel">
+        <div id="fourth-panel-content" class="panel-content">
+            <h1 class="text-center">Contact Me!</h1>
+            <a class="display-block padding-1 margin-1 embedded-logo"
+                href="https://www.linkedin.com/in/aslan-bennington-barr/"><img id="linkedin-logo"
+                    src="resources/LI-Logo.png"></a>
+            <a class="display-block padding-1 margin-1 embedded-logo" href="https://github.com/BionicCat27"><img
+                    id="github-logo" src="resources/GitHub_Logo.png"></a>
+            <a class="display-block padding-1 margin-1 embedded-logo"
+                href="mailto:aslan.bennington.barr@gmail.com">aslan.bennington.barr@gmail.com</a>
+            <button id="seemore1" onclick="seeMore4Listener()" class="text-center">Back to top</button>
+            <a class="margin-1 back-link text-center" href="#third-panel">Back</a>
+        </div>
+    </div>
+    <footer id="credit-footer">A project by <a href="https://aslanbb.vercel.app/">Aslan Bennington-Barr</a><br>
+        <a href="https://github.com/BionicCat27"><img id="github-logo" src="resources/GitHub_Logo.png"></a>
+        <a href="https://www.linkedin.com/in/aslan-bennington-barr/"><img id="linkedin-logo"
+                src="resources/LI-Logo.png"></a>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
 </html>
